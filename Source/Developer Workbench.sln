@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer Workbench", "Developer Workbench\Developer Workbench.csproj", "{70B88994-2D14-4AB0-9DA7-34EB43B50D58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plug-ins", "Plug-ins", "{086D3BB2-3DC6-4D61-93E8-65EEE798DD97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library Info", "Plug-ins\Library Info\Library Info.csproj", "{284D0AC0-5135-4606-B256-AD5455CA2F44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70B88994-2D14-4AB0-9DA7-34EB43B50D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B88994-2D14-4AB0-9DA7-34EB43B50D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B88994-2D14-4AB0-9DA7-34EB43B50D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B88994-2D14-4AB0-9DA7-34EB43B50D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{284D0AC0-5135-4606-B256-AD5455CA2F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284D0AC0-5135-4606-B256-AD5455CA2F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284D0AC0-5135-4606-B256-AD5455CA2F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284D0AC0-5135-4606-B256-AD5455CA2F44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{284D0AC0-5135-4606-B256-AD5455CA2F44} = {086D3BB2-3DC6-4D61-93E8-65EEE798DD97}
+	EndGlobalSection
+EndGlobal
