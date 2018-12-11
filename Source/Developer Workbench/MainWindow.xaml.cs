@@ -2,6 +2,7 @@
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
 using System.IO;
+using System.Linq;
 using System.Windows;
 
 
@@ -28,7 +29,7 @@ namespace PZone.DeveloperWorkbench
             var container = new CompositionContainer(catalog);
             container.ComposeParts(this);
 
-            var count = CommonPlugins.GetHashCode(); //.Count();
+            AssemblyInfoControl.Content = CommonPlugins.First().GetMainPage();
         }
     }
 }

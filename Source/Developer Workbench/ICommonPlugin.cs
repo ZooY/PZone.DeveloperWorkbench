@@ -2,5 +2,6 @@
 {
     public interface ICommonPlugin
     {
+        PluginPage GetMainPage();
     }
 }
